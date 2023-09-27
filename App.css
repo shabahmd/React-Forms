@@ -1,0 +1,52 @@
+* {
+  background-color: rgba(109, 168, 78, 255);
+}
+
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+  width: 500px;
+  height: 40vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: 1px solid #2d2d2d;
+  margin-top: 35vh;
+  margin-left: 35vw;
+  gap: 30px;
+  /* Adjust the value to your desired gap size */
+}
+
+.container>div {
+  margin-left: 25px;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+}
+
+
+.container>div>input {
+  width: 450px;
+  height: 40px;
+  border: none;
+
+  background-color: rgba(242, 241, 242, 255);
+}
+
+
+.container>div>button {
+  width: 450px;
+  height: 40px;
+  border: none;
+
+}
+
+.container .p {
+  color: red;
+}
